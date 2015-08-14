@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SSDTDeployer</id>
+    <version>1.0.0.0</version>
+    <title>SSDT/Dacpac Deployer</title>
+    <authors>Jishun Duan</authors>
+    <owners>Jishun Duan</owners>
+    <licenseUrl>https://github.com/djsxp/SSDTDeployer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/djsxp/SSDTDeployer</projectUrl>
+    <iconUrl>https://github.com/djsxp/SSDTDeployer</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple package includes sqlserver smo and dacpac service, to handle SqlInstance/LocalDB database creation/deletion, and deployment with dacpac from a SSDT project</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>SSDT Dacpac SqlServer SMO deploy localdb unittest</tags>
+  </metadata>
+    <files>
+        <file src="bin\$configuration$\*.dll" target="lib\net45" />
+        <file src="bin\$configuration$\*.pdb" target="lib\net45" />
+    </files>
+</package>
