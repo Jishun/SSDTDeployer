@@ -14,7 +14,7 @@ A simple lib reference Microsoft.Sqlserver.Dacpac and  Microsoft.Sqlserver.SMO t
 var deployer = new SsdtLocalDbDeployer(dbName + ".mdf", true); //true: create if not exists
 deployer.DeployDacPac(Utils.Dacpac);
 ```
-- Using sql instance: [SqlInstanceTest](https://github.com/djsxp/SSDTDeployer/blob/master/project/DeployerTest/SqlInstanceTest.cs) and
+- Using sql instance: [SqlInstanceTest](https://github.com/djsxp/SSDTDeployer/blob/master/project/DeployerTest/SqlInstanceTest.cs)
 ```cs
 var dbName = "TestDeployerLocalSqlInstance";
 var connectString = String.Format(Utils.LocalInstanceConnectionString, dbName);
