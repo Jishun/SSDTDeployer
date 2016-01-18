@@ -22,7 +22,7 @@ var deployer = new SsdtServerDeployer(connectString, dbName, true);
 deployer.DeployDacPac(Utils.Dacpac);
 ```
 ## Remarks
-- When doing unit testing with it, we'd better put the creation of data bases in the initialization method and put the removing/clean up in the clean-up method, 
+- When doing unit testing with it, we'd better put the creation of databases in the initialization method and put the removing/clean up in the clean-up method, 
 - keep in mind that not to force the testing to stop but let it go through even if it's broken by an exception, which allows the clean-up method to get the db server instance cleared
 	
 ## Known issues:
