@@ -22,7 +22,9 @@ namespace SSDTDeployer
             dacServices.ProgressChanged += OnDacServerProcessChanged;
             var package = DacPackage.Load(dacpacFileName);
             CancellationToken? cancellationToken = new CancellationToken();
-            dacServices.Deploy(package, dbName, true, null, cancellationToken);
+            dacServices.Deploy(package, dbName, true, new DacDeployOptions() {
+
+            }, cancellationToken);
         }
 
         public static bool DbExists(string dataSource, string dbName)
