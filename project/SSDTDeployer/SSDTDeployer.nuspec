@@ -6,9 +6,9 @@
     <title>SSDT/Dacpac Deployer</title>
     <authors>Jishun Duan</authors>
     <owners>Jishun Duan</owners>
-    <licenseUrl>https://github.com/djsxp/SSDTDeployer/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/djsxp/SSDTDeployer</projectUrl>
-    <iconUrl>https://github.com/djsxp/SSDTDeployer</iconUrl>
+    <licenseUrl>https://github.com/jishun/SSDTDeployer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jishun/SSDTDeployer</projectUrl>
+    <iconUrl>https://github.com/jishun/SSDTDeployer</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple package includes sqlserver smo and dacpac service, to handle SqlInstance/LocalDB database creation/deletion, and deployment with dacpac from a SSDT project</description>
     <releaseNotes></releaseNotes>
