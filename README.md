@@ -9,12 +9,12 @@ A simple lib reference Microsoft.Sqlserver.Dacpac and  Microsoft.Sqlserver.SMO t
 - All good!
 	
 ## Example code
-- Code from test: [LocalDbTest](https://github.com/djsxp/SSDTDeployer/blob/master/project/DeployerTest/LocalDb.cs)
+- Code from test: [LocalDbTest](https://github.com/jishun/SSDTDeployer/blob/master/project/DeployerTest/LocalDb.cs)
 ```cs
 var deployer = new SsdtLocalDbDeployer(dbName + ".mdf", true); //true: create if not exists
 deployer.DeployDacPac(Utils.Dacpac);
 ```
-- Using sql instance: [SqlInstanceTest](https://github.com/djsxp/SSDTDeployer/blob/master/project/DeployerTest/SqlInstanceTest.cs)
+- Using sql instance: [SqlInstanceTest](https://github.com/jishun/SSDTDeployer/blob/master/project/DeployerTest/SqlInstanceTest.cs)
 ```cs
 var dbName = "TestDeployerLocalSqlInstance";
 var connectString = String.Format(Utils.LocalInstanceConnectionString, dbName);
